@@ -36,7 +36,7 @@
 
 .menuheadings:hover{
 	text-decoration:underline;
-}/* наводячи на заголовок меню*/
+}
 
 .inside{
 	display:none;
@@ -53,16 +53,16 @@
 .inside>a:hover{
 	color:black;
 	text-decoration:none;
-}/*наводимо мишку на опції*/
+}
 
 .post{
 	width:80%;
 	height:300px;
-	border:1px solid red;
+	border:1px solid #F7FAF7;
 	border-radius:15px;
 	margin-bottom:30px;
 	background-size:100%;
-}/*пости посередині #F7FAF7;*/
+}/*пости посерединi*/
 
 
 #firstpost{
