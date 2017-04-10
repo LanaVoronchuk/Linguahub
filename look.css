@@ -1,0 +1,115 @@
+
+#logo-image{
+	width:250px;
+	height:100px;
+	float:right;
+}/* logo image at the top */
+
+#logo-div{
+	float:right;
+	margin-right:10%;
+	position:relative;
+	z-index:-1;
+}/* container for the logo image */
+
+.w3-col{
+	background-color:white;
+}
+
+#toggle{
+		height:100%;
+		text-align:center;
+		position:fixed;
+		float:left;
+		z-index:1;
+}
+
+#posting{
+	margin-left:20%;
+}
+
+.menuheadings{
+	text-align:center;
+	font-family:'EB Garamond', serif;
+	font-size:20px;
+}/* heading of menu options inside the menu*/
+
+.menuheadings:hover{
+	text-decoration:underline;
+}/* наводячи на заголовок меню*/
+
+.inside{
+	display:none;
+	font-family: 'EB Garamond', serif;
+	color:#99ccff;
+	text-align:center;
+}/*всередині менюшки*/
+
+.inside>a{
+	color:#99ccff;
+	text-decoration:none;
+}/*всі опції менюшок-лінки*/
+
+.inside>a:hover{
+	color:black;
+	text-decoration:none;
+}/*наводимо мишку на опції*/
+
+.post{
+	width:80%;
+	height:300px;
+	border:1px solid red;
+	border-radius:15px;
+	margin-bottom:30px;
+	background-size:100%;
+}/*пости посередині #F7FAF7;*/
+
+
+#firstpost{
+	background-image: url('bg-image.jpg');
+}
+
+#secondpost{
+	background-image: url('bg-image-2.jpg');
+}
+
+#thirdpost{
+	background-image: url('bg-image-3.jpg');
+}
+
+#fourthpost{
+	background-image: url('bg-image-4.jpg');
+}
+
+#fifthpost{
+	background-image: url('bg-image-5.jpg');
+}
+
+#sixthpost{
+	background-image: url('bg-image-6.jpg');
+}
+
+#firstcontent, #secondcontent{
+	display:none;
+	background-color:#F7FAF7;
+	opacity:0.6;
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-family:'EB Garamond', serif;
+	font-size:20px;
+}/*самі пости*/
+
+#relatedarticles{
+	font-family:'Play', sans-serif;
+	font-size:12px;
+}/*пов'зяані теми*/
+
+.headingrelated{
+	font-family:'EB Garamond', serif;
+	color:grey;
+}/*пов'зяані теми*/
+
+.relatedpost{
+	margin-bottom:200px;
+}
