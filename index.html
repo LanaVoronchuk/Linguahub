@@ -123,20 +123,20 @@
 <script>
 $(document).ready(function(){
 $('#linguistics_DIV').hover(function(){
-$('#linguistics_inside').fade(1000);
+$('#linguistics_inside').fadeToggle(1000);
 });
 });
 
 $('#linguistics_DIV-2').hover(function(){
-$('#linguistics_inside-2').toggle('slow');
+$('#linguistics_inside-2').fadeToggle('slow');
 });
 
 $('#linguistics_DIV-3').hover(function(){
-$('#linguistics_inside-3').toggle(400);
+$('#linguistics_inside-3').fadeToggle(400);
 });
 
 $('#linguistics_DIV-4').hover(function(){
-$('#linguistics_inside-4').toggle(400);
+$('#linguistics_inside-4').fadeToggle(400);
 });
 
 $('#firstpost').hover(function(){
