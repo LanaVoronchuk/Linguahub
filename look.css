@@ -64,11 +64,11 @@
 
 
 #firstpost{
-	background-image: url('bg-1.jpg');
+	background-image: url('bg-image.jpg');
 }
 
 #secondpost{
-	background-image: url('bg-2.jpg');
+	background-image: url('bg-image-2.jpg');
 }
 
 #thirdpost{
@@ -76,15 +76,15 @@
 }
 
 #fourthpost{
-	background-image: url('bg-image-4.jpg');
+	background-image: url('bg-4.jpg');
 }
 
 #fifthpost{
-	background-image: url('bg-image-5.jpg');
+	background-image: url('bg-5.jpg');
 }
 
 #sixthpost{
-	background-image: url('bg-image-6.jpg');
+	background-image: url('bg-6.jpg');
 }
 
 #firstcontent, #secondcontent, #thirdcontent, #fourthcontent{
