@@ -55,11 +55,35 @@ text-decoration:none;
 text-decoration:none;
 }
 
+.minimenuhead{
+font-family:'EB Garamond', serif;
+font-size:120%;
+color:#87CEEB;
+margin-left:30px;
+}
+
+.minimenuhead:hover{
+color:black;
+}
+
+.minisubmenu>a{
+font-family:'EB Garamond', serif;
+color:#87CEEB;
+text-decoration:none;
+margin-left:30px;
+}
+
+.minisubmenu>a:hover{
+color:black;
+text-decoration:none;
+}
+
+
 </style>
 <body>
 
 
-<div class="w3-bar w3-round-small w3-container w3-light-blue" id="menu">
+<div class="w3-bar w3-round-small w3-container w3-light-blue w3-hide-small" id="menu">
   <div class="w3-dropdown-hover w3-light-blue">
     <div class="menuhead w3-container">Лінгвістика</div>
     <div class="w3-dropdown-content w3-light-blue w3-bar-block">
@@ -97,29 +121,76 @@ text-decoration:none;
   </div>
   <img src="lh_logo.jpg" class="w3-image" style="float:right;">
 </div>
+<div class="w3-top w3-hide-medium w3-hide-large">
+  <div class="w3-bar w3-padding-large w3-white">
+    <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="color:#87CEEB;"></i></a>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;">
+  <div class="w3-dropdown-hover w3-white w3-content" style="width:60%;">
+    <div class="minimenuhead w3-container">Лінгвістика</div>
+    <div class="minisubmenu w3-dropdown-content w3-white w3-bar-block">
+<a href="#">Теоретична</a><br>
+<a href="#">Дескриптивна</a><br>
+<a href="#">Прикладна</a><br>
+<a href="#">Мовні теорії</a><br>
+<a href="#">Вчені</a><br>
+<a href="#">Теорії комунікацій</a><br>
+<a href="#">Мови</a><br>
+<a href="#">Філософія мови</a>
+    </div>
+  </div> 
+
+   <div class="w3-dropdown-hover w3-white" style="width:60%">
+    <div class="minimenuhead w3-container">Навчання</div>
+    <div class="minisubmenu w3-dropdown-content w3-round-small w3-bar-block">
+<a href="#">Онлайн курси</a><br>
+<a href="#">Університети</a><br>
+<a href="#">Матеріали</a>
+    </div>
+  </div>  
+  <div class="w3-dropdown-hover w3-white" style="width:60%">
+    <div class="minimenuhead w3-container">Ресурси</div>
+    <div class="minisubmenu w3-dropdown-content w3-round-small w3-bar-block">
+ <a href="#">Видання</a><br>
+<a href="#" >Відео</a><br>
+<a href="#" >Онлайн ресурси</a>
+    </div>
+  </div>  
+  <div class="w3-dropdown-hover white" style="width:60%;padding-bottom:20px;">
+    <div class="minimenuhead w3-container">Новини</div>
+    <div class="minisubmenu w3-dropdown-content w3-round-small w3-bar-block">
+      <a href="#">Архів</a>
+    </div>
+  </div> 
+  
+</div>
 
 <div class="w3-content" style="font-family:'EB Garamond', serif;">
 
-	        <div class="w3-row-padding" style="font-size:120%;">
-        <div class="w3-quarter w3-margin-bottom w3-round-medium w3-margin-top w3-hover-shadow">
-          <div class="w3-container"><a href="#" style="text-decoration:none;">
-            <p style="font-family:'Play', sans-serif;"><b>Штучний інтелект</b></p>
-            <p style="overflow:hidden;">Розуміння природної мови іноді вважають AI-повною задачею, системи про оточуюче середовище та можливості взаємодіяти з ним. </p>
-			            <p class="w3-opacity">25 вересня 2017</p></a>
+	        <div class="w3-row-padding" style="font-size:120%;margin-top:50px;">
+        <div class="w3-quarter w3-margin-bottom w3-margin-top w3-round-medium w3-hover-shadow">
+          <div class="w3-container"><a href="article.html" target="_blank" style="text-decoration:none;">
+            <p style="font-family:'Play', sans-serif;"><b>10 ресурсів для вивчення мов</b></p>
+            <p>10 онлайн інструментів для новачків та прокачених мовофілів </p>
+			            <p class="w3-opacity">1 жовтня 2017</p></a>
           </div>
         </div>
         <div class="w3-quarter w3-margin-bottom w3-round-medium  w3-margin-top w3-hover-shadow">
           <div class="w3-container">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p style="font-family:'Play', sans-serif;"><b>10 найкращих університетів для філологів</b></p>
+            <p>Європейські університети для лінгвістів</p>
+			            <p class="w3-opacity">28 вересня 2017</p>
           </div>
         </div>
         <div class="w3-quarter w3-margin-bottom w3-margin-top w3-round-medium w3-hover-shadow">
           <div class="w3-container">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p style="font-family:'Play', sans-serif;"><b>Лінгвістика і кіно</b></p>
+            <p>Прем'єра і обговорення "Прибуття"</p>
+			            <p class="w3-opacity">20 іересня 2017</p>
           </div>
         </div>
 		<div class="w3-quarter w3-margin-bottom w3-margin-top w3-round-medium w3-hover-shadow">
@@ -184,9 +255,9 @@ text-decoration:none;
         </div>
 		<div class="w3-quarter w3-margin-bottom w3-round-medium w3-hover-shadow">
           <div class="w3-container">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p style="font-family:'Play', sans-serif;"><b>Шо почьом - для чого цей сайт</b></p>
+            <p></p>
+			            <p class="w3-opacity">29 грудень 2016</p>
           </div>
         </div>
       </div>
@@ -197,7 +268,14 @@ text-decoration:none;
 </div>
 
 <script>
-
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
 </script>
 
 </body>
