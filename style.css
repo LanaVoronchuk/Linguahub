@@ -1,0 +1,75 @@
+body {
+font-family: "Lato", sans-serif;
+background-color:white;
+}
+
+a{
+text-decoration:none;
+}
+
+.w3-footer{
+font-family:'EB Garamond', serif;
+padding:0 10px 0 10px;
+width:100%;
+height:auto;
+word-spacing:20px;"
+}
+
+.w3-footer>a:hover{
+color:white;
+}
+
+#menu{
+font-family:'EB Garamond', serif;
+font-size:120%;
+color:#87CEEB;
+padding-top:10px;
+}
+
+.w3-container{
+padding:5px 10px;
+}
+
+.menuhead{
+margin-top:10px;
+}
+
+.menuhead:hover{
+color:black;
+}
+
+.submenu>a{
+text-decoration:none;
+font-size:15px;
+padding-left:15px;
+color:#87CEEB;
+}
+
+.submenu>a:hover{
+color:black;
+}
+
+.minimenuhead{
+font-family:'EB Garamond', serif;
+font-size:120%;
+color:#87CEEB;
+margin-left:30px;
+}
+
+.minimenuhead:hover{
+color:black;
+}
+
+.minisubmenu>a{
+font-family:'EB Garamond', serif;
+color:#87CEEB;
+margin-left:40px;
+}
+
+.minisubmenu>a:hover{
+color:black;
+}
+
+.contentblockhead{
+	font-family:'Play', sans-serif;
+}
