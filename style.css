@@ -72,8 +72,19 @@ color:black;
 
 .contentblockhead{
 	font-family:'Play', sans-serif;
+	margin-top:50px;
 }
 
+.articlecontent{
+	font-family:'EB Garamond',serif;
+	font-size:1.2em;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.articlecontent>p{
+	margin-top:5%;
+}
 
 #sorrypagecontent{
 font-family:'EB Garamond', serif;
